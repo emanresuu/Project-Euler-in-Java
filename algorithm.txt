@@ -1,0 +1,18 @@
+Algorithm: LargestPalendromeProduct; return the largest pallendrome not greater than n: n  is a positive integer.
+
+Definitions:
+
+
+
+
+Algorithm: digits; return the number of digits in n: n is a positive integer.
+START
+1)     n <-- INPUT
+2) count <-- 0
+3) WHILE n > 0
+      n <-- REMAINDER(n/10)
+      count <-- count + 1
+4) RETURN n
+END
+
+
